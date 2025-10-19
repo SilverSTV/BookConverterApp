@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookConverterApp", "BookConverterApp\BookConverterApp.csproj", "{4F28CCCB-D9DB-4354-91E3-B38612C50072}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookConverter", "BookConverter\BookConverter.csproj", "{30AE7D3A-EDC0-41FB-98D0-2C233E1544DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F28CCCB-D9DB-4354-91E3-B38612C50072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F28CCCB-D9DB-4354-91E3-B38612C50072}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F28CCCB-D9DB-4354-91E3-B38612C50072}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F28CCCB-D9DB-4354-91E3-B38612C50072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30AE7D3A-EDC0-41FB-98D0-2C233E1544DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AE7D3A-EDC0-41FB-98D0-2C233E1544DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AE7D3A-EDC0-41FB-98D0-2C233E1544DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AE7D3A-EDC0-41FB-98D0-2C233E1544DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
