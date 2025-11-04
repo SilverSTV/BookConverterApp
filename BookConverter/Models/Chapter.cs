@@ -1,11 +1,13 @@
-﻿using System;
-
-namespace BookConverterApp.Models;
-
-public class Chapter
+﻿namespace WpfBookConverter.Models
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
-    public string FileName { get; set; } = string.Empty;
-    public string Path { get; set; } = string.Empty;
-    public string Content { get; set; } = string.Empty;
+    public class Chapter
+    {
+        public string Title { get; set; }
+        public string FilePath { get; set; }
+
+
+// Preview is computed when chapter is selected
+        [System.Text.Json.Serialization.JsonIgnore]
+        public string Preview { get; set; }
+    }
 }
