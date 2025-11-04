@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.ObjectModel;
+using System.Text.Json.Serialization;
 
-namespace BookConverterApp.Models;
 
-public class Book
+namespace WpfBookConverter.Models
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
-    public string Title { get; set; } = string.Empty;
-    public string Author { get; set; } = "Неизвестен";
-    public DateTime Created { get; set; } = DateTime.Now;
-
-    public List<Chapter> Chapters { get; set; } = new();
-
-    public string GetFullText() => string.Join("\n\n", Chapters.Select(c => c.Content));   
+    public class Book
+    {
+        public string Id { get; set; }
+        public string Title { get; set; }
+        public ObservableCollection<Chapter> Chapters { get; set; } = new ObservableCollection<Chapter>();
+    }
 }
